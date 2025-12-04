@@ -75,7 +75,7 @@ jobs:
             $assets = @(
               @{ Url = "https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi"; Name = "crdhost.msi" },
               @{ Url = "https://downloads.cloudflareclient.com/v1/download/windows/ga"; Name = "Cloudflare_WARP_x64.msi" },
-              @{ Url = "https://download.vb-audio.com/Download_CABLE/VBCABLE_Driver_Pack45.zip"; Name = "VBCABLE.zip" },
+            
               @{ Url = "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"; Name = "VisualStudio.exe" },
               @{ Url = "https://nodejs.org/dist/v24.11.0/node-v24.11.0-x64.msi"; Name = "node-v24.msi" }
               
